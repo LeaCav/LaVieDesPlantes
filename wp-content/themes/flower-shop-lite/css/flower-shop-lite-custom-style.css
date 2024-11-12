@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Chakra_Petch';
+    src: url(/fonts/Chakra_Petch/ChakraPetch-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Noto_Sans';
+    src: url(/fonts/Noto_Sans/static/NotoSans-Medium.ttf);
+}
+
+*{
+    font-family: 'Chakra_Petch';
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Noto_Sans';
+}
+
+.logo img{
+    height:150px;
+    width:150px;
+    max-height:none;
+    max-width:none
+}
+
+.custom-logo{
+    height:200px;
+    width:200px
+}
+
+#sidebar{
+    display: none
+}
